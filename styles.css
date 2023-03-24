@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: SuffolkPunch;
+    src: url(./fonts/suffolkpunch.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.color{
+    background: -webkit-linear-gradient(#012871,#2a0e2c, #4b1420);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgcolor{
+    background:#49131d;
+}
+
+h1,h2{font-family: 'SuffolkPunch',sans-serif;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    padding-bottom: 1000px;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    padding-top: 15px;
+    position: fixed;
+    background-color: #49131d;
+    z-index: 555;
+    box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+}
+
+.navbar-left-list{
+    display: flex;
+    gap: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+ul{
+   list-style: none;
+}
+
+.lessa-logo{
+    height: 55px;
+    width: 180px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.navbar-right-container{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-solid{
+    color:white;
+    font-size: 28px;
+}   
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 87px;
+    padding-bottom: 200px;
+}
+
+.hero-image{
+    position: absolute;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 90%;
+    z-index: -1;}
+
+
+.hero-inner-container{
+    margin-top: 75px;
+    background-color: white;
+    width: 65%;
+    height: 525px;
+    display: flex;
+    border-radius: 50px;
+
+}
+
+.hero-inner-container-left,.hero-inner-container-right{
+    width: 50%;
+    height: 100%;
+}
+
+.hero-inner-container-left-items,.hero-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-inner-container-left-items{
+    height: 100%;
+    gap: 20px;
+}
+
+.hero-title{
+    font-size: 34px;
+    width: 300px;
+    text-align: center;
+    font-family: 'SuffolkPunch',sans-serif;
+}
+
+.hero-button{
+    border: 4px solid #a0a081;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.hero-inner-image{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 50px;}
+
+.hero-arrow{
+    position:absolute;
+    right: 49%;
+    bottom: 1%;
+    height: 40px;
+    width: 40px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+}
+
+.hero-arrow:hover{
+    cursor:pointer
+}
+
+.hero-fade{
+    position:absolute;
+    left: 0;
+    bottom: -11px;
+    width:100%;
+    height:100px;
+    background: linear-gradient(to top, #49131d, transparent); 
+    z-index: -1;  
+}
+
+.dates-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.dates-title{
+    font-size: 32px;
+    letter-spacing: 25px;
+}
+
+.dates-inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-size: 20px;
+    gap: 50px;
+}
+
+.actual-dates-row{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actual-dates-container-left{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 1000px;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+
+}
+
+.actual-dates-container-right{
+    border: 3px solid white;
+    padding: 9px;
+    font-weight: bolder;
+    margin-top: -25px;
+    border-radius: 10px;
+}
+
+
+.dates-test{
+    display: flex;
+    width: 900px;
+}
